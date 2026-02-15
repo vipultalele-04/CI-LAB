@@ -32,7 +32,7 @@ jobs:
       - name: Upload artifacts check the node js application path 
         uses: actions/upload-artifact@v4
         with:
-          name: nodejs-app-=artifacts
+          name: nodejs-app-artifacts
           path: ./
 
       - name: get the user_name and password from github
